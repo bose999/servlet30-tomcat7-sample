@@ -59,7 +59,7 @@ public class AsyncAction implements Runnable {
             logUtil.trace("Start AsyncAction");
         }
 
-        String dispatchUrl = "dipatchUrl:/WEB-INF/jsp/result.jsp";
+        String dispatchUrl = "/WEB-INF/jsp/result.jsp";
 
         // 処理終了後 遷移先を設定
         logUtil.trace(dispatchUrl);
