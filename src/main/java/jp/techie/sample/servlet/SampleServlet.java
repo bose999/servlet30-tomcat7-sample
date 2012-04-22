@@ -29,6 +29,7 @@ import jp.techie.sample.util.LogUtil;
  * @author bose999
  *
  */
+@WebServlet(name = "sample", urlPatterns = { "/sample" }, asyncSupported=true)
 @SuppressWarnings("serial")
 public class SampleServlet extends HttpServlet {
 
